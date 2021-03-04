@@ -11,7 +11,8 @@
 helloWorld.prototype = {
     initialize: function() {
 		//Testing sample integration between Servicenow, Github & Jenkins
-		gs.log("First test sample for Snow-Github-Jenkins");
+		gs.log("First TEST sample for Snow-Github-Jenkins");
+		//TEST comment
     },
 
     type: 'helloWorld'
@@ -21,7 +22,7 @@ helloWorld.prototype = {
         <sys_created_on>2021-03-03 21:12:59</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>7ce3c76fdbee64d46caeaa2e139619b4</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>helloWorld</sys_name>
         <sys_package display_value="snow_git_jenkins_poc" source="f8238767dbee64d46caeaa2e139619a7">f8238767dbee64d46caeaa2e139619a7</sys_package>
         <sys_policy/>
@@ -29,6 +30,6 @@ helloWorld.prototype = {
         <sys_scope display_value="snow_git_jenkins_poc">f8238767dbee64d46caeaa2e139619a7</sys_scope>
         <sys_update_name>sys_script_include_7ce3c76fdbee64d46caeaa2e139619b4</sys_update_name>
         <sys_updated_by>bveliv410</sys_updated_by>
-        <sys_updated_on>2021-03-03 21:13:35</sys_updated_on>
+        <sys_updated_on>2021-03-04 17:16:50</sys_updated_on>
     </sys_script_include>
 </record_update>
