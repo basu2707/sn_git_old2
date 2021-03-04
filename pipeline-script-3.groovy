@@ -4,8 +4,8 @@ pipeline {
     agent any
 
     parameters {
-            snParam(credentialsForPublishedApp: "snow_git_jenkins_poc", instanceForPublishedAppUrl: "https://comcastdemo.service-now.com",
-                    credentialsForInstalledApp:"snow_git_jenkins_poc", instanceForInstalledAppUrl:"https://comcastdemo.service-now.com",
+            snParam(credentialsForPublishedApp: "comcastdemo", instanceForPublishedAppUrl: "https://comcastdemo.service-now.com",
+                    credentialsForInstalledApp:"comcastdemo", instanceForInstalledAppUrl:"https://comcastdemo.service-now.com",
                     appScope: "global")
     }
 
