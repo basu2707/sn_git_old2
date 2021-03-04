@@ -1,9 +1,9 @@
 pipeline {
   agent any
   environment {
-    APPSYSID = '0713cd811b66a4d487ee76eecc4bcbe0'
+    APPSYSID = 'f8238767dbee64d46caeaa2e139619a7'
     BRANCH = "${BRANCH_NAME}"
-    CREDENTIALS = 'servicenow'
+    CREDENTIALS = 'comcastdemo'
     DEVENV = 'https://comcastdemo.service-now.com/'
     TESTSUITEID = 'b1ae55eedb541410874fccd8139619fb'
   }
