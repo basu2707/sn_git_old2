@@ -3,7 +3,7 @@ pipeline {
   environment {
     APPSYSID = '0713cd811b66a4d487ee76eecc4bcbe0'
     BRANCH = "${BRANCH_NAME}"
-    CREDENTIALS = 'snow_git_jenkins_poc'
+    CREDENTIALS = 'comcastdemo'
     DEVENV = 'https://comcastdemo.service-now.com/'
     TESTSUITEID = 'b1ae55eedb541410874fccd8139619fb'
   }
